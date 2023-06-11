@@ -25,32 +25,32 @@ document.addEventListener('DOMContentLoaded', function (e) {
           email: {
             validators: {
               notEmpty: {
-                message: 'Please enter your email'
+                message: 'Masukkan email Anda'
               },
               emailAddress: {
-                message: 'Please enter valid email address'
+                message: 'Masukkan alamat email yang valid'
               }
             }
           },
           'email-username': {
             validators: {
               notEmpty: {
-                message: 'Please enter email / username'
+                message: 'Masukan email / username!'
               },
               stringLength: {
                 min: 6,
-                message: 'Username must be more than 6 characters'
+                message: 'Nama pengguna harus lebih dari 6 karakter'
               }
             }
           },
           password: {
             validators: {
               notEmpty: {
-                message: 'Please enter your password'
+                message: 'Masukan password kamu!'
               },
               stringLength: {
                 min: 6,
-                message: 'Password must be more than 6 characters'
+                message: 'Kata sandi harus lebih dari 6 karakter'
               }
             }
           },
